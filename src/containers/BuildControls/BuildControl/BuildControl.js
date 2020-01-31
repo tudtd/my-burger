@@ -7,12 +7,12 @@ const buildControl = props => {
   return (
     <div className={classes.BuildControl}>
       <div className={classes.Label}>{props.label}</div>
-      <button className={classes.ButtonMore} onClick={props.addIncredients}>
+      <button className={classes.ButtonMore} onClick={props.addIngredient}>
         More
       </button>
       <button
         className={classes.ButtonLess}
-        onClick={props.removeIncredients}
+        onClick={props.removeIngredient}
         disabled={props.disabled}
       >
         Less
